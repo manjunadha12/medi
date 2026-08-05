@@ -1,0 +1,29 @@
+{
+  "appId": "com.mediconsult.app",
+  "appName": "Medi Consult",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true,
+    "url": "http://10.214.116.15:5173",
+    "allowNavigation": [
+      "10.214.116.15",
+      "localhost",
+      "*.razorpay.com"
+    ]
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "launchAutoHide": true,
+      "backgroundColor": "#050505",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": true,
+      "androidSpinnerStyle": "large",
+      "spinnerColor": "#3b82f6",
+      "splashFullScreen": true,
+      "splashImmersive": true
+    }
+  }
+}

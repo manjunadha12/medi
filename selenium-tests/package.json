@@ -1,0 +1,14 @@
+{
+  "name": "mediconsult-selenium-tests",
+  "version": "1.0.0",
+  "description": "E2E Selenium Tests and Excel Generator for Medi Consult Login",
+  "main": "tests/login-tests.js",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/login-tests.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "selenium-webdriver": "^4.23.0"
+  }
+}

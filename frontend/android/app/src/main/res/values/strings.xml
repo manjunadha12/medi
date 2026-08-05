@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Medi Consult</string>
+    <string name="title_activity_main">Medi Consult</string>
+    <string name="package_name">com.mediconsult.app</string>
+    <string name="custom_url_scheme">com.mediconsult.app</string>
+</resources>

@@ -1,0 +1,14 @@
+{
+  "name": "mediconsult-load-tests",
+  "version": "1.0.0",
+  "description": "Baseline load testing environment using autocannon",
+  "main": "load-test.js",
+  "type": "module",
+  "scripts": {
+    "test": "node load-test.js"
+  },
+  "dependencies": {
+    "autocannon": "^7.15.0",
+    "exceljs": "^4.4.0"
+  }
+}
